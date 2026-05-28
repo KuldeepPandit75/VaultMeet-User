@@ -89,7 +89,7 @@ const userSchema = new mongoose_1.default.Schema({
     },
     lastLocation: {
         type: String,
-        enum: ["spawn hall", "helpdesk", "meeting room", "team room", "team room entrance"],
+        enum: ["spawn hall", "helpdesk", "meeting room", "team"],
         default: "spawn hall",
     },
     college: {
