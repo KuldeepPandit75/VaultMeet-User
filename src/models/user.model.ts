@@ -140,12 +140,6 @@ const userSchema = new mongoose.Schema({
     default: "",
   },
 
-  lastLocation: {
-    type: String,
-    enum: ["spawn hall", "helpdesk", "meeting room", "team"],
-    default: "spawn hall",
-  },
-
   college: {
     type: String,
     default: "",

@@ -120,7 +120,6 @@ export const updateUser = async (req: any, res: any) => {
     "avatar",
     "bio",
     "location",
-    "lastLocation",
     "college",
     "skills",
     "interests",
